@@ -72,14 +72,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Elena Marlowe — Portrait & Sketch Artist" },
+      { name: "description", content: "Portfolio of Elena Marlowe — pencil portraits, sketches, and digital illustration. Commissions open." },
+      { name: "author", content: "Elena Marlowe Studio" },
+      { property: "og:title", content: "Elena Marlowe — Portrait & Sketch Artist" },
+      { property: "og:description", content: "Transforming imagination into art. Commissioned portraits, sketches & digital illustration." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
