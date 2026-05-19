@@ -76,9 +76,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Portfolio of Elena Marlowe — pencil portraits, sketches, and digital illustration. Commissions open." },
       { name: "author", content: "Elena Marlowe Studio" },
       { property: "og:title", content: "Elena Marlowe — Portrait & Sketch Artist" },
-      { property: "og:description", content: "Transforming imagination into art. Commissioned portraits, sketches & digital illustration." },
+      { property: "og:description", content: "Portfolio of Elena Marlowe — pencil portraits, sketches, and digital illustration. Commissions open." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Elena Marlowe — Portrait & Sketch Artist" },
+      { name: "twitter:description", content: "Portfolio of Elena Marlowe — pencil portraits, sketches, and digital illustration. Commissions open." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d552db6e-35c6-4bbe-a136-84b1244b6dc8/id-preview-1d0dff9a--0527fc73-edcd-4a9b-8e0f-b32bf361d56b.lovable.app-1779212909267.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d552db6e-35c6-4bbe-a136-84b1244b6dc8/id-preview-1d0dff9a--0527fc73-edcd-4a9b-8e0f-b32bf361d56b.lovable.app-1779212909267.png" },
     ],
     links: [
       {
